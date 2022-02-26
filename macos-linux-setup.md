@@ -48,12 +48,14 @@ If you are using the latest MacOS (Monterey) please note it is currently incompa
 1. Install node
     - Type `node -v` in your terminal to determine whether you already have node, if it returns a version number, you can skip this step
     - `nvm install --lts`
-3. Make VS Code your default Git editor
+1. Make VS Code your default Git editor
     - Run this command in your terminal: `git config --global core.editor "code --wait"`
-4. Enable automatic colour-coding of brackets and automatic fixing of linting errors on file save
+1. Enable automatic colour-coding of brackets and automatic fixing of linting errors on file save
     - In VS Code, click the Settings cog button in the bottom left and open the Command Palette. Type `settings.json` into the little search box that appears at the top of your screen, and then click on the `Preferences: Open Settings (JSON)` option to open your `settings.json` config file. Paste in these contents:
     ```json
     "editor.bracketPairColorization.enabled": true,
     "editor.codeActionsOnSave": { "source.fixAll.eslint": true }
     ```
     - Note that each entry in your `settings.json` should end in a comma except for the last one, so if there are some existing entries you'll need to add a comma before pasting the above lines
+1. If any of these steps didn't work as expected, please ask for help in Slack or Discord (ideally during week 5 of Foundations, but at least during the week before you start Bootcamp)
+If it all worked, please post a celebratory message in the all-cohorts-help channel in Discord so that your Bootcamp facilitators know you are ready to roll for day 1
