@@ -163,6 +163,7 @@ VIDEO WALKTHOUGH: https://www.youtube.com/watch?v=pwn4zknR5TU
         - For the repo you just cloned, cd ("change directory") into that folder, e.g. `cd javascript carnival`, then do `code .`
         - This should open VS Code and you should be able to see the code from that repo
 1. If any of these steps didn't work as expected, please ask for help in Slack or Discord (ideally during week 5 of Foundations, but at least during the week *before* you start Bootcamp)
+1. If it all worked, please post a celebratory message in the `all-cohorts-help` channel in Discord so that your Bootcamp facilitators know you are ready to roll for day 1
 
 ## Where to save your files
 We recommend that you store all your Bootcamp files, folders and repos within your WSL (Linux) filesystem. This should happen automatically when you create directories, clone repos, etc. from the Linux command prompt. We recommend you DON'T store your Bootcamp code in a Windows directory like 'My Documents'.
